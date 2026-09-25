@@ -1,2 +1,30 @@
-# rnr-lab-semiconductor-demo
-Independent Korean demo landing page for RNR Lab semiconductor laser annealing equipment
+# 알엔알랩(주) 반도체 장비 소개 — 비공식 독립 데모
+
+공식 사이트 교체 또는 공식 제작물이 아닌 한국어 반응형 랜딩페이지입니다. 자체 제작 CSS 개념 그래픽만 사용하며 공식 로고·사진·브랜드 자산은 포함하지 않습니다.
+
+## 실행
+
+```bash
+npm ci
+npm run dev
+```
+
+## 배포
+
+```bash
+npm ci
+npm run build
+```
+
+- 저장소 루트: 웹 앱 소스 및 `package.json`
+- 빌드 명령: `npm run build`
+- 정적 게시 디렉터리: `dist`
+- Node.js 20.19+ 또는 22.12+ 권장 (Vite 6)
+- 라우팅이나 서버 환경 변수 필요 없음
+
+## 내용과 출처
+
+- [머니투데이, 「알엔알랩, 초고속 레이저 어닐링 적용 반도체 열처리 장비 개발」, 2025-04-28](https://www.mt.co.kr/industry/2025/04/28/2025042811274296473): 설립 연도, 대표, 기술, 방식, 적용 분야
+- [알엔알랩 공식 사이트](https://rnr-lab.com/): 추가 정보·문의 연결용. 본문 정보를 확인하지 못해 인용하지 않음
+
+기사에 언급된 적용 분야는 실제 납품이나 상용화 확정 사례를 뜻하지 않습니다. 확인되지 않은 고객사·인증·성능 수치·연락처는 게시하지 않았습니다.
